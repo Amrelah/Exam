@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => const Login(),
         '/signup': (context) => const Signup(),
         '/home': (context) => const Home(),
-        '/user': (context) => const User(),
+        '/user': (context) =>  const User(),
       },
     );
   }
